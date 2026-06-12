@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
     <title>杉本圭のポートフォリオサイト</title>
@@ -23,28 +23,28 @@
             <li><a href="#work">作ったwebページ</a></li>
             <li><a href="#link">リンク</a></li>
         </ul>
-        <div class="hamburger">
+        <div class="hamburger" id="menu">
             <input type="checkbox" id="menu-btn-check">
-            <label for="menu-btn-check" class="menu-btn"><span></span></label>
-            <div class="menu-content">
-            <ul>
-                <li>
-                    <a href="#history">私のこれまで</a>
-                </li>
-                <li>
-                    <a href="#skill">スキル</a>
-                </li>
-                <li>
-                    <a href="#work">作ったwebページ</a>
-                </li>
-                <li>
-                    <a href="#link">リンク</a>
-                </li>
-                <li>
-                    <p>現在、文字のクリックではメニューが閉じません。<br>JavaScript学習後に改善予定です。<br>お手数ですが、メニューを閉じる場合はメニューボタンをクリックしてください。</p>
-                </li>
-            </ul>
-        </div>
+            <label for="menu-btn-check" class="menu-btn" id="menu-btn"><span></span></label>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li>
+                        <a href="#history" class="close">私のこれまで</a>
+                    </li>
+                    <li>
+                        <a href="#skill" class="close">スキル</a>
+                    </li>
+                    <li>
+                        <a href="#work" class="close">作ったwebページ</a>
+                    </li>
+                    <li>
+                        <a href="#link" class="close">リンク</a>
+                    </li>
+                    <li>
+                        <p>現在、文字のクリックではメニューが閉じません。<br>JavaScript学習後に改善予定です。<br>お手数ですが、メニューを閉じる場合はメニューボタンをクリックしてください。</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="top" id="top">
@@ -57,7 +57,7 @@
     </div>
     <div class="run">
         <div class="line"></div>
-        <img src="media\run.png">
+        <img src="C:\Users\user\.vscode\K\media\run.png">
     </div>
     <div class="history" id="history">
         <h2>私のこれまで</h2>
@@ -112,28 +112,28 @@
         </ul>
     </div>
     <div class="run-re">
-        <img src="media\run-reverse.png">
+        <img src="C:\Users\user\.vscode\K\media\run-reverse.png">
         <div class="line-re"></div>
     </div>
     <div class="skill" id="skill">
         <h2>スキル</h2>
         <div class="skill-slider">
-            <div><img src="media\html-5_5968267.png"></div>
-            <div><img src="media\css-3_5968242.png"></div>
-            <div><img src="media\sql-database-generic.png"></div>
-            <div><img src="media\command-line.png"></div>
+            <div><img src="C:\Users\user\.vscode\K\media\html-5_5968267.png"></div>
+            <div><img src="C:\Users\user\.vscode\K\media\css-3_5968242.png"></div>
+            <div><img src="C:\Users\user\.vscode\K\media\sql-database-generic.png"></div>
+            <div><img src="C:\Users\user\.vscode\K\media\command-line.png"></div>
         </div>
     </div>
     <div class="run">
         <div class="line"></div>
-        <img src="media\run.png">
+        <img src="C:\Users\user\.vscode\K\media\run.png">
     </div>
     <div class="work" id="work">
         <h2>作ったwebページ、作品など</h2>
         <div class="work-slider">
             <div class="work-card">
                 <a class="work-card-inner" href="file:///C:/Users/user/.vscode/slideshow/slideshow_2.html" target="_blank" rel="noopener noreferrer">
-                    <img src="media\スクリーンショット 2026-05-01 141116.png" alt="webページのサムネイル">
+                    <img src="C:\Users\user\.vscode\K\media\スクリーンショット 2026-05-01 141116.png" alt="webページのサムネイル">
                     <div class="work-card-txt">
                         <div class="work-card-txt-top">
                             <p class="work-type">Webページ</p>
@@ -145,7 +145,7 @@
             </div>
             <div class="work-card">
                 <a class="work-card-inner" href="https://formula-wsc.com/sugimoto/uruoinoie-midori/" target="_blank" rel="noopener noreferrer">
-                    <img src="media\スクリーンショット 2026-04-30 101649.png" alt="webページのサムネイル">
+                    <img src="c:\Users\user\.vscode\K\media\スクリーンショット 2026-04-30 101649.png" alt="webページのサムネイル">
                     <div class="work-card-txt">
                         <div class="work-card-txt-top">
                             <p class="work-type">webページ</p>
@@ -157,7 +157,7 @@
             </div>
             <div class="work-card">
                 <a class="work-card-inner" href="https://formula-wsc.com/sugimoto/" target="_blank" rel="noopener noreferrer">
-                    <img src="media\0001.jpg" alt="webページのサムネイル">
+                    <img src="C:\Users\user\.vscode\K\media\0001.jpg" alt="webページのサムネイル">
                     <div class="work-card-txt">
                         <div class="work-card-txt-top">
                             <p class="work-type">Webページ</p>
@@ -169,7 +169,7 @@
             </div>
             <div class="work-card">
                 <a class="work-card-inner" href="#"  target="_blank" rel="noopener noreferrer">
-                    <img src="media\942.png" alt="webページのサムネイル">
+                    <img src="C:\Users\user\.vscode\K\media\942.png" alt="webページのサムネイル">
                     <div class="work-card-txt">
                         <div class="work-card-txt-top">
                             <p class="work-type">Null</p>
@@ -181,7 +181,7 @@
             </div>
             <div class="work-card">
                 <a class="work-card-inner" href="#"  target="_blank" rel="noopener noreferrer">
-                    <img src="media\942.png" alt="webページのサムネイル">
+                    <img src="C:\Users\user\.vscode\K\media\942.png" alt="webページのサムネイル">
                     <div class="work-card-txt">
                         <div class="work-card-txt-top">
                             <p class="work-type">Null</p>
@@ -193,7 +193,7 @@
             </div>
             <div class="work-card">
                 <a class="work-card-inner" href="#"  target="_blank" rel="noopener noreferrer">
-                    <img src="media\942.png" alt="webページのサムネイル">
+                    <img src="C:\Users\user\.vscode\K\media\942.png" alt="webページのサムネイル">
                     <div class="work-card-txt">
                         <div class="work-card-txt-top">
                             <p class="work-type">Null</p>
@@ -205,7 +205,7 @@
             </div>
             <div class="work-card">
                 <a class="work-card-inner" href="#"  target="_blank" rel="noopener noreferrer">
-                    <img src="media\942.png" alt="webページのサムネイル">
+                    <img src="C:\Users\user\.vscode\K\media\942.png" alt="webページのサムネイル">
                     <div class="work-card-txt">
                         <div class="work-card-txt-top">
                             <p class="work-type">Null</p>
@@ -218,7 +218,7 @@
         </div>
     </div>
     <div class="run-re">
-        <img src="media\run-reverse.png">
+        <img src="C:\Users\user\.vscode\K\media\run-reverse.png">
         <div class="line-re"></div>
     </div>
     <div class="link" id="link">
@@ -233,7 +233,7 @@
     <div class="footer">
         <div class="footer-con">
             <div class ="footer-left">
-                <img src="media\Kicon.png" alt="犬のアイコンを使用したロゴです">
+                <img src="C:\Users\user\.vscode\K\media\Kicon.png" alt="犬のアイコンを使用したロゴです">
             </div>
             <ul class="footer-right">
                 <li><a href="#top">ページトップへ</a></li>
@@ -246,8 +246,10 @@
         </div>
         <p>&copy; 2026 杉本圭</p>
     </div>
-
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/portfolio.js"></script>
+
 <script src="slick/slick.min.js"></script>
 <script>
     $(document).ready(function(){
@@ -284,6 +286,5 @@
         });
     });
 </script>
-
 </body>
 </html>
