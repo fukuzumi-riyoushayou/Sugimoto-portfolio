@@ -11,7 +11,7 @@ $(function(){
     });
 
     $('.close').click(function() {
-        $('#menu-content').slideUp(1000).removeClass('menu-content-open');
+        $('#menu-content').slideUp().removeClass('menu-content-open');
         $("#menu-btn-check").prop("checked",false);
     });
 });

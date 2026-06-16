@@ -194,6 +194,7 @@ i {
 }
 @media screen and (max-width: 767px) {
   .header .menu-content {
+    display: none;
     width: 50%;
     height: auto;
     position: fixed;
@@ -201,14 +202,12 @@ i {
     right: 0;
     z-index: 80;
     background-color: rgb(232, 190, 107);
-    transition: all 0.5s;
-    display: none;
   }
 }
-/*.header #menu-btn-check:checked ~ .menu-content {
+.header #menu-btn-check:checked ~ .menu-content {
   display: block;
   right: 0;
-}*/
+}
 .header .menu-content ul li {
   border-bottom: solid 1px #ffffff;
   list-style: none;

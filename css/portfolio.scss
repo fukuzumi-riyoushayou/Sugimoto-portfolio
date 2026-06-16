@@ -29,7 +29,6 @@ img {
 a, a:visited {
     color: black;
     text-decoration: none;
-    target: _brank;
 }
 h1, h2 {
     text-align: center;
@@ -178,15 +177,14 @@ i {
     .menu-content {
         display: none;
         @include mq(sp) {
-        display: block;
-        width: 50%;
-        height: auto;
-        position: fixed;
-        top: 100px;
-        right: -100%;
-        z-index: 80;
-        background-color: rgb(232, 190, 107);
-        transition: all 0.5s;
+            display: none;
+            width: 50%;
+            height: auto;
+            position: fixed;
+            top: 100px;
+            right: 0;
+            z-index: 80;
+            background-color: rgb(232, 190, 107);
         }
     }
     #menu-btn-check:checked ~ .menu-content {
