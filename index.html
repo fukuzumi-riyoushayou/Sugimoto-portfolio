@@ -54,11 +54,11 @@
     </div>
     <div class="run">
         <div class="line"></div>
-        <img src="media\run.png">
+        <img src="media\run.png" class="runDog">
     </div>
     <div class="history" id="history">
         <h2>私のこれまで</h2>
-        <ul class="history-con">
+        <ul class="history-con fadeUpTrigger">
             <li>
                 <div class="history-left">
                     <p>1997<span>年</span><br>
@@ -109,12 +109,12 @@
         </ul>
     </div>
     <div class="run-re">
-        <img src="media\run-reverse.png">
+        <img src="media\run.png" class="reverse runDog">
         <div class="line-re"></div>
     </div>
     <div class="skill" id="skill">
         <h2>スキル</h2>
-        <div class="skill-slider">
+        <div class="skill-slider fadeUpTrigger">
             <div><img src="media\skill_html-5.png"></div>
             <div><img src="media\skill_css-3.png"></div>
             <div><img src="media\skill_SQL.png"></div>
@@ -123,13 +123,13 @@
     </div>
     <div class="run">
         <div class="line"></div>
-        <img src="media\run.png">
+        <img src="media\run.png" class="runDog">
     </div>
     <div class="work" id="work">
         <h2>作ったwebページ、作品など</h2>
         <!-- カードにつけるタイトルは一行全角10文字以内、かつ二行にしてカードの大きさを統一する -->
         <!-- 一行だけのカードがあるとそのカードだけ小さくなるので注意 -->
-        <div class="work-slider">
+        <div class="work-slider fadeUpTrigger">
             <div class="work-card">
                 <a class="work-card-inner" href="https://fukuzumi-riyoushayou.github.io/Sugimoto-slideshow/" target="_blank" rel="noopener noreferrer">
                     <img src="media\sakuhin_slide.jpg" alt="webページのサムネイル">
@@ -217,12 +217,12 @@
         </div>
     </div>
     <div class="run-re">
-        <img src="media\run-reverse.png">
+        <img src="media\run.png" class="reverse runDog">
         <div class="line-re"></div>
     </div>
     <div class="link" id="link">
         <h2>杉本圭のリンク</h2>
-        <div class="link-con">
+        <div class="link-con fadeUpTrigger">
             <a class="link-leftup"><p>X<br>(旧ツイッター)</p><div class="bg-img"></div></a>
             <a class="link-rightup"><p>Instagram</p><div class="bg-img"></div></a>
             <a class="link-leftdown"><p>Facebook</p><div class="bg-img"></div></a>
@@ -241,10 +241,13 @@
                 <li><a href="#work">作ったwebページ</a></li>
                 <li><a href="#link">リンク</a></li>
             </ul>
-            <a class="gotop" href="#">ページトップへ<i class="fa-solid fa-angles-up"></i></a>
+            <a class="gotop" href="#">ページトップへ</a>
         </div>
         <p>&copy; 2026 杉本圭</p>
     </div>
+    <a class="gotop-btn" href="#">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="js/portfolio.js"></script>

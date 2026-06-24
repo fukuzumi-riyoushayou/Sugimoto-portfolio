@@ -84,6 +84,10 @@ i {
   margin-left: 2%;
 }
 
+.reverse {
+  transform: scaleX(-1);
+}
+
 /* ナビゲーションバー */
 .header {
   width: 100%;
@@ -651,4 +655,54 @@ i {
 .footer p {
   text-align: center;
   background-color: rgba(232, 190, 107, 0.8);
+}
+
+.fa-solid {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  color: white;
+  font-size: 30px;
+  z-index: 100;
+  background-color: rgba(232, 190, 107, 0.8);
+  padding: 1% 1.2%;
+  border-radius: 20%;
+}
+@media screen and (max-width: 767px) {
+  .fa-solid {
+    padding: 1% 1.4%;
+  }
+}
+
+.gotop-btn {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fadeUpTrigger {
+  opacity: 0;
+}
+
+.fadeUp {
+  animation-name: fadeUpAnime;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }/*# sourceMappingURL=portfolio.css.map */
